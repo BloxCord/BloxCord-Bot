@@ -1,0 +1,13 @@
+2020-01-26T22:12:47.673529961 0.009211s notice: Recursively removing directory /app/rethinkdb_data/tmp
+2020-01-26T22:12:47.677321269 0.013001s notice: Initializing directory /app/rethinkdb_data
+2020-01-26T22:12:47.677404125 0.013084s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/app/rethinkdb_data' did not already exist or is empty.)
+2020-01-26T22:12:47.677440189 0.013120s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2020-01-26T22:12:47.679639142 0.015321s notice: Running on Linux 4.4.0-1085-aws x86_64
+2020-01-26T22:12:47.679686220 0.015366s notice: Loading data from directory /app/rethinkdb_data
+2020-01-26T22:12:47.716626312 0.052306s info: Automatically using cache size of 2449 MB
+2020-01-26T22:12:47.717837091 0.053517s error: TCP socket creation failed for port 29015: Address already in use.
+2020-01-26T22:13:17.616211688 0.016789s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2020-01-26T22:13:17.620938775 0.021517s notice: Running on Linux 4.4.0-1085-aws x86_64
+2020-01-26T22:13:17.621002896 0.021579s notice: Loading data from directory /app/rethinkdb_data
+2020-01-26T22:13:17.690514887 0.091091s info: Automatically using cache size of 2452 MB
+2020-01-26T22:13:17.695782278 0.096359s error: TCP socket creation failed for port 29015: Address already in use.
