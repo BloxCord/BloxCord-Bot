@@ -1,0 +1,7 @@
+\.eslintrc\.json
+
+settings\.json
+
+node_modules/
+
+\.idea/
