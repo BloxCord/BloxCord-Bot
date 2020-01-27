@@ -1,0 +1,13 @@
+{
+	"token": "NjcxMDMxNzU3MjM5MjIyMjky.Xi3BNw.ugHtR-_nfcTzAUtDprHMU6izvaw",
+	"testToken": "NjcwOTU2OTQ5NjM4MjE3NzQ4.Xi17ZQ.gERJoA3uxexM0EmddC2EuvM_S8I",
+	"dblToken": "Discord bot list token",
+	"sentry": "https://cf26e6d63b7b4431b662fa37aa40c3a1@sentry.io/1981620",
+	"specialPeople": {
+		"1007555269": "This user works for Polaris.",
+		"25730173": "This user is the Polaris developer.",
+		"1007555269": "Desc string to be shown",
+    "sync": "true"
+	}
+}
+
