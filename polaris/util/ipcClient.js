@@ -5,17 +5,17 @@ class IPCClient {
 		config = config || {};
 		this.allowLog = config.allowLog !== undefined ? config.allowLog : true;
 		this.client = client;
-		IPC.config.id = config.id || 'bloxcordClient';
+		IPC.config.id = config.id || 'polarisClient';
 		IPC.config.retry = config.retry || 3000;
 		IPC.config.silent = config.silent || true;
 		this.client.on('ready', this.start.bind(this));
 	}
 	start () {
 		this.client.removeListener('ready', this.start);
-		IPC.connectTo('bloxcordServer', this.setup.bind(this));
+		IPC.connectTo('polarisServer', this.setup.bind(this));
 	}
 	setup () {
-		const ws = IPC.of.bloxcordserver;
+		const ws = IPC.of.polarisserver;
 		this._ws = ws;
 
 		ws.on('connect', this.connected.bind(this));
