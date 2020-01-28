@@ -28,7 +28,7 @@ app.get('/health', (req, res) => {
 
 // Connect to a cluster containing `192.168.0.100`, `192.168.0.100`, `192.168.0.102` and
 // use a maximum of 3000 connections and try to keep 300 connections available at all time.
-var r = require('rethinkdbdash')({pool: false, discovery: true,
+var r = require('rethinkdbdash')({pool: true, discovery: true,
     servers: [
         {host: '*', port: 28015},
     ],
